@@ -12,3 +12,5 @@ def fizzbuzz():
         print((string), end=" ")
 
     print("$")
+
+fizzbuzz()
