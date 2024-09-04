@@ -11,5 +11,4 @@ def fizzbuzz():
             string += str(num)
         print(string, end=" ")
 
-
-fizzbuzz()
+    print("$")
