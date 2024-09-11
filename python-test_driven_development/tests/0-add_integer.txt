@@ -1,0 +1,47 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+
+>>> add_integer(5, 10)
+15
+>>> add_integer(-5, 10)
+5
+>>> add_integer(5, -10)
+-5
+>>> add_integer(-5, -10)
+-15
+>>> add_integer(5.4, 10)
+15
+>>> add_integer(5.80, 10)
+15
+>>> add_integer(54525, 10)
+54535
+>>> add_integer(54525, 1.9999999)
+54526
+>>> add_integer(545.45, 1.99)
+546
+>>> add_integer(30)                                                                                                                                  
+128
+
+>>> add_integer(morgan, 30)
+Traceback (most recent call last):
+...
+NameError: name 'morgan' is not defined
+
+>>> add_integer("10", 15)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer(v, 15)
+Traceback (most recent call last):
+...
+NameError: name 'v' is not defined
+
+>>> add_integer(float('inf'), 15)
+Traceback (most recent call last):
+...
+OverflowError: cannot convert float infinity to integer
+
+>>> add_integer(float('nan'), 15)
+Traceback (most recent call last):
+...
+ValueError: cannot convert float NaN to integer
