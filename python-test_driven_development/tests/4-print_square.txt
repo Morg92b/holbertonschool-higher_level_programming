@@ -34,3 +34,18 @@ ValueError: size must be >= 0
 Traceback (most recent call last):
 ...
 TypeError: size must be an integer
+
+>>> print_square(14, "kirua")
+Traceback (most recent call last):
+...
+TypeError: print_square() takes 1 positional argument but 2 were given
+
+>>> print_square(14, 2.5)
+Traceback (most recent call last):
+...
+TypeError: print_square() takes 1 positional argument but 2 were given
+
+>>> print_square("chong")
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
