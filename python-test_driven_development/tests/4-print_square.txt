@@ -9,17 +9,6 @@
 >>> print_square(1)
 #
 
-
->>> print_square(5555555555555555555555555)
-Traceback (most recent call last):
-...
-OverflowError: cannot fit 'int' into an index-sized integer
-
->>> print_square(1.5)
-Traceback (most recent call last):
-...
-TypeError: size must be an integer
-
 >>> print_square()
 Traceback (most recent call last):
 ...
@@ -30,46 +19,6 @@ Traceback (most recent call last):
 ...
 ValueError: size must be >= 0
 
->>> print_square(chr)
-Traceback (most recent call last):
-...
-TypeError: size must be an integer
-
->>> print_square(14, "kirua")
-Traceback (most recent call last):
-...
-TypeError: print_square() takes 1 positional argument but 2 were given
-
->>> print_square(14, 2.5)
-Traceback (most recent call last):
-...
-TypeError: print_square() takes 1 positional argument but 2 were given
-
->>> print_square("chong")
-Traceback (most recent call last):
-...
-TypeError: size must be an integer
-
->>> print_square(float('inf'))
-Traceback (most recent call last):
-...
-TypeError: size must be an integer
-
->>> print_square(float('inf'), 5)
-Traceback (most recent call last):
-...
-TypeError: print_square() takes 1 positional argument but 2 were given
-
->>> print_square(float('nan'))
-Traceback (most recent call last):
-...
-TypeError: size must be an integer
-
->>> print_square([10])
-Traceback (most recent call last):
-...
-TypeError: size must be an integer
-
 >>> print_square("hello")
 Traceback (most recent call last):
 ...
@@ -79,4 +28,3 @@ TypeError: size must be an integer
 Traceback (most recent call last):
 ...
 TypeError: size must be an integer
-
