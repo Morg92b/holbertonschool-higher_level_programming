@@ -49,3 +49,23 @@ TypeError: print_square() takes 1 positional argument but 2 were given
 Traceback (most recent call last):
 ...
 TypeError: size must be an integer
+
+>>> print_square(float('inf'))
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square(float('inf'), 5)
+Traceback (most recent call last):
+...
+TypeError: print_square() takes 1 positional argument but 2 were given
+
+>>> print_square(float('nan'))
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
+
+>>> print_square([10])
+Traceback (most recent call last):
+...
+TypeError: size must be an integer
