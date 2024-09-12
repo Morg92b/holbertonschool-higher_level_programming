@@ -1,6 +1,14 @@
 #!/usr/bin/python3
+"""
+This function that prints a square with the character #
+"""
+
 
 def print_square(size):
+    """
+    Return: print # with number size
+    """
+
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     if size < 0:
