@@ -1,6 +1,14 @@
 #!/usr/bin/python3
+"""
+ This function that prints a text with 2 new lines
+ after each of these characters: ., ? and :
+"""
+
 
 def text_indentation(text):
+    """
+    Return: the result of the text
+    """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
 
