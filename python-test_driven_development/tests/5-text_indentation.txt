@@ -1,11 +1,12 @@
 >>> text_indentation = __import__('5-text_indentation').text_indentation
 
-guys>>> text_indentation("hello. hello? hello:")
+>>> text_indentation('hello. hello? hello:')
 hello.
-
+<BLANKLINE>
 hello?
-
+<BLANKLINE>
 hello:
+<BLANKLINE>
 
 >>> text_indentation(4555)
 Traceback (most recent call last):
