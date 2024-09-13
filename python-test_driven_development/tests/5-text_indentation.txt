@@ -3,6 +3,11 @@
 >>> text_indentation("hello guys")
 hello guys
 
+>>> text_indentation("hello.guys")
+hello.
+
+guys>>> 
+
 >>> text_indentation(4555)
 Traceback (most recent call last):
 ...
