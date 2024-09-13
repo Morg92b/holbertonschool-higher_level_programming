@@ -1,12 +1,11 @@
 >>> text_indentation = __import__('5-text_indentation').text_indentation
 
->>> text_indentation("hello guys")
-hello guys
-
->>> text_indentation("hello.guys")
+guys>>> text_indentation("hello. hello? hello:")
 hello.
 
-guys>>> 
+hello?
+
+hello:
 
 >>> text_indentation(4555)
 Traceback (most recent call last):
