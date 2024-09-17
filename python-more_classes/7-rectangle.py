@@ -72,12 +72,14 @@ class Rectangle:
     def __str__(self):
         """
         print the rectangle with print_symbol
+        Returns the string
         """
+        string = ""
         if self.__width == 0 or self.__height == 0:
-            return ""
-        for index in range(self.__height - 1):
-            print(str(self.print_symbol) * self.width)
-        return str(self.print_symbol * self.width)
+            return string
+        for index in range(self.__height):
+            string += str(self.print_symbol) * self.width + "\n"
+        return string.strip()
 
     def __repr__(self):
         """
