@@ -77,9 +77,9 @@ class Rectangle:
         Returns the string
         """
         string = ""
-        if self.width == 0 or self.height == 0:
+        if self.__width == 0 or self.height == 0:
             return string
-        for index in range(self.__height):
+        for index in range(self.height):
             string += str(self.print_symbol) * self.width + "\n"
         return string.strip()
 
