@@ -27,19 +27,19 @@ class Circle(Shape):
     A subclass of Shape that represents a circle
     """
     def __init__(self, radius):
-        self.__radius = radius
+        self.radius = radius
 
     def area(self):
         """
         Returns the area of the circle
         """
-        return pi * self.__radius ** 2
+        return pi * self.radius ** 2
 
     def perimeter(self):
         """
         Returns the perimeter (circumference) of the circle
         """
-        return 2 * pi * self.__radius
+        return 2 * pi * self.radius
 
 
 class Rectangle(Shape):
@@ -47,20 +47,20 @@ class Rectangle(Shape):
     A subclass of Shape that represents a rectangle
     """
     def __init__(self, width, height):
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
 
     def area(self):
         """
         Returns the area of the rectangle
         """
-        return self.__width * self.__height
+        return self.width * self.height
 
     def perimeter(self):
         """
         Returns the perimeter of the rectangle
         """
-        return (self.__width + self.__height) * 2
+        return (self.width + self.height) * 2
 
 
 def shape_info(shape):
