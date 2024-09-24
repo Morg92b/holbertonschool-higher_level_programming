@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Shapes, Interfaces, and Duck Typing"""
 from abc import ABC, abstractmethod
 from math import pi
