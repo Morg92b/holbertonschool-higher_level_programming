@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Shapes, Interfaces, and Duck Typing"""
 from abc import ABC, abstractmethod
 from math import pi
 
@@ -69,5 +70,5 @@ def shape_info(shape):
     """
     area = shape.area()
     perimeter = shape.perimeter()
-    print(f"Area: {shape.area():}")
-    print(f"Perimeter: {shape.perimeter():}")
+    print("Area: {}".format(area))
+    print("Perimeter: {}".format(perimeter))
