@@ -12,9 +12,16 @@ Marshaling is the process of transforming memory objects into a format that can 
 
 Serialization, closely related to marshaling, specifically involves converting data structures or object states into a format that can be easily saved to a file or sent over a network. The main goal of serialization is to preserve the state of an object, so it can be recreated in an identical state elsewhere. This becomes essential in developing applications that require data persistence, distributed computing, and data sharing between different software components.
 
-#### TASK:
+### TASK
 
-0. Basic Serialization
-1. Pickling Custom Classes
-2. Converting CSV Data to JSON Format
-3. Serializing and Deserializing with XML
+#### 0. Basic Serialization : basic serialization module that adds the functionality to serialize a Python dictionary to a JSON file and deserialize the JSON file to recreate the Python Dictionary.
+
+#### 1. Pickling Custom Classes : how to serialize and deserialize custom Python objects using the pickle module
+
+#### 2. Converting CSV Data to JSON Format : Converting CSV to JSON Format
+
+#### 3. Serializing and Deserializing with XML : Convert to XML
+
+### Author
+
+- [Morgan Bouaziz](https://github.com/Morg92b)
