@@ -24,8 +24,11 @@ class CustomObject:
         """
         Serializes the object and saves it to a file using pickle.
         """
-        with open(filename, "wb") as file:
-            pickle.dump(self, file)
+        try:
+            with open(filename, "wb") as file:
+                pickle.dump(self, file)
+        except FileNotFoundError:
+            return None
 
     @classmethod
     def deserialize(cls, filename):
