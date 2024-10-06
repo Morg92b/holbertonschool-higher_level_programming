@@ -2,7 +2,7 @@
 
 This project focuses on managing input and output in Python, a fundamental aspect of programming that enables interaction with users and data manipulation. Through a series of exercises, we will explore various methods for reading and writing files, handling data in JSON format, and understanding the use of Python modules for efficient input/output operations. This project aims to enhance Python programming skills by applying I/O concepts while creating applications that can effectively process and save data.
 
-## task
+## Task :
 
 #### 0. Read file : function that reads a text file (UTF8) and prints it to stdout
 
