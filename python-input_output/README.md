@@ -30,6 +30,6 @@ This project focuses on managing input and output in Python, a fundamental aspec
 
 #### 12. Pascal's Triangle : that returns a list of lists of integers representing the Pascal’s triangle
 
-## Authors
+## Author
 
 - [Morgan Bouaziz](https://github.com/Morg92b)

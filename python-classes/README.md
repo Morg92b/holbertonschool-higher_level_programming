@@ -36,3 +36,7 @@ Master Python properties to access and modify attributes.
 #### 5. Printing a square : Add a method to print the square using #.
 
 #### 6. Coordinates of a square : Manage the square's position with a position attribute and validate the coordinates.
+
+### Author:
+
+- [Morgan Bouaziz](https://github.com/Morg92b)
