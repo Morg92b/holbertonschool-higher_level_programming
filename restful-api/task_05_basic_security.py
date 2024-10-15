@@ -13,8 +13,8 @@ app.config['SECRET_KEY'] = 'your_secret_key'
 app.config['JWT_SECRET_KEY'] = 'your_jwt_secret_key'
 
 users = {
-    "user1": {"username": "Killua", "password": generate_password_hash("password"), "role": "user"},
-    "admin1": {"username": "Netero", "password": generate_password_hash("password"), "role": "admin"},
+    "user1": {"username": "user1", "password": generate_password_hash("password"), "role": "user"},
+    "admin1": {"username": "admin1", "password": generate_password_hash("password"), "role": "admin"},
 }
 
 
