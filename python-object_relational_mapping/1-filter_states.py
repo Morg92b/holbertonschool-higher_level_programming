@@ -23,4 +23,4 @@ if __name__ == "__main__":
         print(row)
 
     cursor.close()
-    connection.close
+    connection.close()
