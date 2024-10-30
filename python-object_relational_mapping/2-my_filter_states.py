@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     cursor = connection.cursor()
     cursor.execute("SELECT * FROM states \
-        WHERE name = '{}' ORDER BY id ASC".format(sys.argv[4]))
+        WHERE name = '{}' ORDER BY states.id ASC".format(sys.argv[4]))
     rows = cursor.fetchall()
 
     for row in rows:
