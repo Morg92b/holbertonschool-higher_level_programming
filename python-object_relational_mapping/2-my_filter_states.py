@@ -17,7 +17,7 @@ if __name__ == "__main__":
     )
     cursor = connection.cursor()
     cursor.execute(
-        "SELECT * FROM states WHERE name = %s ORDER BY id ASC",
+        "SELECT * FROM states WHERE BINARY name = %s ORDER BY id ASC",
         (sys.argv[4],)
     )
     rows = cursor.fetchall()
