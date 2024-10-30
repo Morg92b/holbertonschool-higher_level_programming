@@ -3,9 +3,8 @@
 """script that takes in an argument and displays all values,
 in the states table of hbtn_0e_0_usa where name matches the argument"""
 
-import MySQLdb
 import sys
-
+import MySQLdb
 
 if __name__ == "__main__":
     connection = MySQLdb.connect(
@@ -15,11 +14,10 @@ if __name__ == "__main__":
         passwd=sys.argv[2],
         db=sys.argv[3]
     )
+
     cursor = connection.cursor()
-    cursor.execute(
-        "SELECT * FROM states WHERE BINARY name = %s ORDER BY id ASC",
-        (sys.argv[4],)
-    )
+    cursor.execute("SELECT * FROM states \
+        WHERE name = '{}' ORDER BY id ASC".format(sys.argv[4]))
     rows = cursor.fetchall()
 
     for row in rows:
